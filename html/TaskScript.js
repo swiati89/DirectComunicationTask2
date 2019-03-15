@@ -1,7 +1,7 @@
 
 var items = [];
 $(document).ready(function() {
-    $.getJSON( "Code Test Data.txt", function( data ) {
+    $.getJSON( "Code_Test_Data.txt", function( data ) {
         $.each( data, function( key, val ) {
             for(var i = 0; i<val.length; i++){
                 items.push(val[i]);
